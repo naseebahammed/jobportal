@@ -1,0 +1,40 @@
+.searchbtn {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  height: 60px;
+  overflow: hidden;
+
+  &-field {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px;
+    width: 50%;
+  }
+  &:first-child {
+    padding-left: 20px;
+  }
+  input,
+  select {
+    border: none;
+    height: 100%;
+    outline: none;
+  }
+  button {
+    display: inline-block;
+    background-color: #02aff1;
+    border: none;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+  }
+}

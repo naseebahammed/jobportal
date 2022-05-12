@@ -1,0 +1,17 @@
+.jobCato {
+  background: #f8fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  &-elems {
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 40px;
+  }
+}
