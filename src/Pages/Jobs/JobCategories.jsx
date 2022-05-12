@@ -1,4 +1,5 @@
 import JobsCatoCard from "../../comp/Jobs/JobsCatoCard";
+import BtnGreen from "../../comp/Btn/BtnGreen";
 import "./JobCategories.scss";
 
 function JobCategories() {
@@ -22,6 +23,8 @@ function JobCategories() {
         <JobsCatoCard />
         <JobsCatoCard />
       </div>
+
+      <BtnGreen text="View All Categories" />
     </div>
   );
 }
