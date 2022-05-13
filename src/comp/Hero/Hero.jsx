@@ -1,4 +1,4 @@
-import SearchBtn from "../../comp/SearchBtn/SearchBtn";
+import SearchBtn from "../SearchBtn/SearchBtn";
 import "./Hero.scss";
 
 function Hero() {

@@ -1,16 +1,22 @@
 import "./App.css";
-import Hero from "./Pages/Hero/Hero";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./comp/Navbar/Navbar";
-import JobList from "./Pages/Jobs/JobList";
-import JobCategories from "./Pages/Jobs/JobCategories";
+import Routes from "./Routes";
+import Footer from "./comp/Footer/Footer";
+
+// import CandidateLogin from "./Pages/Candidate/CandidateLogin";
+// import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <JobList />
-      <JobCategories />
+      <Router>
+        <Navbar />
+        <div className="main">
+          <Routes />
+        </div>
+        <Footer />
+      </Router>
     </div>
   );
 }
